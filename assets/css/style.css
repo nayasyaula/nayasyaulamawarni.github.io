@@ -478,13 +478,24 @@ section {
   justify-content: center;
 }
 
-.portfolio .portfolio-wrap .portfolio-links a {
-  color: #fff;
-  font-size: 28px;
-  text-align: center;
-  background: #F1EFEF;
-  transition: 0.3s;
-  width: 50%;
+/* Link Zoom (hanya ikon) */
+.portfolio .portfolio-wrap .portfolio-links a:first-child {
+  font-size: 14px;
+  width: auto;
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Link More Details (ikon + teks) */
+.portfolio .portfolio-wrap .portfolio-links a:last-child {
+  font-size: 14px;
+  width: auto;
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
